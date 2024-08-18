@@ -1,15 +1,15 @@
-import React from 'react'
-import MaxWidthWrapper from '../components/mmw'
-import Image from 'next/image'
-import { FAQ } from '../components/constants/index'
-import Link from 'next/link'
+import React from 'react';
+import MaxWidthWrapper from '../components/mmw';
+import Image from 'next/image';
+import { FAQ } from '../components/constants/index';
+import Link from 'next/link';
 import { FaGooglePlay } from "react-icons/fa6";
 
 const Main = () => {
   return (
-    <section className='h-screen'>
+    <section className='h-full w-full'>
       <MaxWidthWrapper className='h-full'>
-        <div className='flex justify-center'>
+        <div className='grid justify-center'>
           <Link href="https://play.google.com/store/apps/details?id=com.zervebox.app" target='_blank'>
             <Image
               src="/img/bgImg.png"
@@ -18,6 +18,17 @@ const Main = () => {
               width={700}
               className='mt-0'
             />
+          </Link>
+          <Link href="https://play.google.com/store/apps/details?id=com.zervebox.app" target='_blank'>
+            <div className='flex justify-center items-center p-10 pt-0'>
+              <button
+                className="bg-gray-300 text-black text-xl py-6 px-8 rounded-2xl flex justify-center items-center hover:bg-gray-400 transition-all duration-200"
+                style={{ width: '40%' }}
+              >
+                <h3 className='text-xl pr-2'>Download Now </h3>
+                <FaGooglePlay size={25} />
+              </button>
+            </div>
           </Link>
         </div>
         <div className='grid grid-cols-1'>
