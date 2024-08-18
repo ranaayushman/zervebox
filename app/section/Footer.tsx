@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebookF, FaInstagram, FaGooglePlay } from "react-icons/fa6";
 
@@ -9,10 +10,12 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Branding Section */}
                     <div className="mb-8 md:mb-0">
-                        <img
-                            src="/img/Main_Logo.png"
+                        <Image
+                            src="/img/Main_logo_on_dark _bg.png"
                             alt="Logo"
-                            className="h-[50px] mb-4"
+                            className="mb-4"
+                            width={140}
+                            height={40}
                         />
                         <p className="text-sm">
                             Upgrade your world, refresh your wallet. Join us on our journey.
