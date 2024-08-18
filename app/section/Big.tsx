@@ -3,6 +3,7 @@ import MaxWidthWrapper from '../components/mmw'
 import Image from 'next/image'
 import { FAQ } from '../components/constants/index'
 import Link from 'next/link'
+import { FaGooglePlay } from "react-icons/fa6";
 
 const Main = () => {
   return (

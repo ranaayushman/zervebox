@@ -2,7 +2,7 @@ import React from 'react'
 import MaxWidthWrapper from './mmw';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaGooglePlay, FaXTwitter } from "react-icons/fa6";
+import { FaGooglePlay, FaInstagram } from "react-icons/fa6";
 
 
 const Navbar: React.FC = () => {
@@ -27,8 +27,8 @@ const Navbar: React.FC = () => {
                         </Link>
 
                         {/* <button className="bg-[#3E479B] hover:bg-[#151836] transition-all duration-200 text-gray-100 py-2 px-4 rounded-full">Sign up</button> */}
-                        <Link href="#">
-                            <FaXTwitter size={32} />
+                        <Link href="https://www.instagram.com/zervebox?igsh=eTFlN2JzMG1kNm5x" target='_blank'>
+                            <FaInstagram size={32} />
                         </Link>
 
                     </div>
