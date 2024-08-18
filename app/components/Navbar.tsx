@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
             <MaxWidthWrapper>
                 <div className='flex justify-between pt-4'>
                     <div>
-                        <Link href="@">
+                        <Link href="#">
                             <Image
                                 src='/img/main_logo_icon.png'
                                 height={40}
