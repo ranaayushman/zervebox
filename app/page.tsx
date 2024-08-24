@@ -4,6 +4,7 @@ import Hero from './section/Hero';
 import Navbar from './components/Navbar';
 import Main from './section/Big';
 import Footer from './section/Footer';
+import Contact from './section/Form';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Main />
+      <Contact />
       <Footer />
     </div>
   );
